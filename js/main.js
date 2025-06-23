@@ -440,11 +440,13 @@ $(function () {
   });
 
   $('.art-info-bar-btn').on('click', function () {
+
     $('.art-info-bar').toggleClass('art-active');
     $('.art-menu-bar-btn').toggleClass('art-disabled');
   });
 
   $('.art-menu-bar-btn').on('click', function () {
+
     $('.art-menu-bar-btn , .art-menu-bar').toggleClass("art-active");
     $('.art-info-bar-btn').toggleClass('art-disabled');
   });
